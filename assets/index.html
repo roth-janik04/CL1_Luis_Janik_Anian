@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Bergmark Brillen | Kontaktformular</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <form>
+            <div class="tableflex">
+                <div class="firstTable">
+                    <table>
+                        <tr>
+                            <td><label for="nachname">Name</label></td>
+                            <td><input type="text" size="30" id="nachname" name="nachname" min="2" autofocus required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-Mail</label></td>
+                            <th> <input type="email" id="email" name="email" placeholder="example@domain.com" required></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="secondTable">
+                    <table>
+                        <tr>
+                            <td><label for="vorname">Vorname</label></td>
+                            <td><input type="text" id="vorname" name="vorname" max="20" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Tel.</label></td>
+                            <td><input type="tel" id="tel" name="telnr" placeholder="+41 00 000 00 00" required></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br>
+			<input type="submit" id="submit" value="Absenden">
+        </form>
+
+    </div>
+
+    <script src="./JS/databaseClient.js"></script>
+    <script src="./JS/form.js"></script>
+</body>
+
+</html>
