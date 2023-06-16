@@ -1,6 +1,5 @@
 // (1) Variablen initialisieren
 const formContainer = document.querySelector(".mainContainer");
-const thankYouContainer = document.getElementById("thankYouContainer");
 const submitButton = document.getElementById("submit");
 submitButton.disabled = true;
 const emailField = document.getElementById("email");
